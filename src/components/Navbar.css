@@ -1,0 +1,23 @@
+.Navbar {
+  font-size: 12px;
+  margin: 0 0 25px 0;
+}
+
+.Navbar a {
+  display: inline-block;
+  height: 20px;
+  width: 32px;
+  vertical-align: middle;
+  padding: 0 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.Navbar a:hover {
+  font-weight: bold;
+  font-size: 105%
+}
+
+.Navbar #small-width {
+  width: 17px;
+}
