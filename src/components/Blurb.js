@@ -5,7 +5,7 @@ const imageStyle = {
   height: '100px',
   width: '100px',
   padding: '3px',
-  boxShadow: '-1px 1px 0px 1px #515151'
+  boxShadow: '-1px 1px 0px 0px #515151'
 }
 
 const headerStyle = {
