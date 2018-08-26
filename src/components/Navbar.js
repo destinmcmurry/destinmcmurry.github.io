@@ -6,9 +6,12 @@ const Navbar = props => {
   return (
     <div className='Navbar'>
       <Link id='small-width' to='/blurb'><span>blurb</span></Link>
+      <span className='seperator'>|</span>
       <Link to='/timeline'><span>timeline </span></Link>
-      <Link to='/projects'><span> projects</span></Link>
-      <Link to='/misc'><span>misc</span></Link>
+      <span className='seperator'>|</span>
+      <Link to='/projects'><span> projects </span></Link>
+      <span className='seperator'>|</span>
+      <Link id='media' to='/media'><span>media</span></Link>
     </div>
   );
 }
