@@ -24,10 +24,13 @@
   font-size: 105%
 }
 
-.Navbar #small-width {
-  width: 25px;
-}
-
-.Navbar #media {
+/* a quick fix to keep from driving myself insane */ 
+#about {
   width: 30px;
+}
+#media {
+  width: 30px;
+}
+#projects {
+  width: 42px;
 }

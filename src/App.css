@@ -6,17 +6,17 @@
 
 .App-header {
   font-size: 20px;
-  height: 40px;
+  height: 45px;
   margin: 0;
   min-width: 200px;
-  padding-top: 3px;
+  padding-top: 10px;
   font-family: 'Montserrat', sans-serif;
   background-color: #f9f9f9;
 }
 
 .App-subheader {
   position: fixed;
-  top: 56px;
+  top: 67px;
   left: 0;
   right: 0;
   font-family: 'Homemade Apple', cursive;
