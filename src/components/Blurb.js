@@ -16,8 +16,9 @@ const headerStyle = {
   borderBottom: 'dotted 1px'
 }
 
-const lineStyle = {
-  display: 'block'
+const valuesStyle = {
+  display: 'block',
+  margin: '2px'
 }
 
 const Blurb = props => {
@@ -33,18 +34,18 @@ const Blurb = props => {
       <p>be part of a collaborative environment where I have the opportunity to tackle challenges, contribute ideas, and learn from others on a daily basis</p>
       <h4 style={headerStyle}>and I'm passionate about</h4>
       <div style={{marginTop: '10px'}}>
-        <span style={lineStyle}>open communication</span>
-        <span style={lineStyle}>sharing</span>
-        <span style={lineStyle}>organization and best practices</span>
-        <span style={lineStyle}>celebrating wins</span>
-        <span style={lineStyle}>a constructive mindset</span>
-        <span style={lineStyle}>a general sense of awareness and consideration</span>
-        <span style={lineStyle}>efficiency</span>
-        <span style={lineStyle}>not taking yourself too seriously</span>
-        <span style={lineStyle}>thoughtful feedback</span>
-        <span style={lineStyle}>staying iterative</span>
-        <span style={lineStyle}>positivity</span>
-        <span style={lineStyle}>the little things</span>
+        <span style={valuesStyle}>open communication</span>
+        <span style={valuesStyle}>sharing</span>
+        <span style={valuesStyle}>organization and best practices</span>
+        <span style={valuesStyle}>celebrating wins</span>
+        <span style={valuesStyle}>a constructive mindset</span>
+        <span style={valuesStyle}>awareness of and consideration for others</span>
+        <span style={valuesStyle}>efficiency</span>
+        <span style={valuesStyle}>not taking yourself too seriously</span>
+        <span style={valuesStyle}>thoughtful feedback</span>
+        <span style={valuesStyle}>staying iterative</span>
+        <span style={valuesStyle}>positivity</span>
+        <span style={valuesStyle}>the little things</span>
       </div>
     </div>
   );

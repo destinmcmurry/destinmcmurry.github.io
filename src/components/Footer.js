@@ -1,7 +1,7 @@
 import React from 'react';
 
 const footerStyle = {
-  marginTop: '35px',
+  margin: '35px 0',
   bottom: '0',
   left: '0',
   right: '0',
@@ -19,7 +19,7 @@ const logoStyle = {
 
 const emailStyle = {
   display:'block', 
-  margin:'5px', 
+  margin:'7px', 
   fontSize:'11px'
 }
 
