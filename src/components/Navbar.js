@@ -11,7 +11,7 @@ const Navbar = props => {
       <span className='seperator'>|</span>
       <Link id ='projects' to='/projects'><span> projects</span></Link>
       <span className='seperator'>|</span>
-      <Link id='media' to='/media'><span>media</span></Link>
+      <Link id='misc' to='/misc'><span>misc</span></Link>
     </div>
   );
 }

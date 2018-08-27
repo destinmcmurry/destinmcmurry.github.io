@@ -1,23 +1,25 @@
 .App {
   text-align: center;
-  margin: 35px;
+  margin: 35px 35px 0 35px;
   font-size: 80%;
 }
 
 .App-header {
-  font-size: 20px;
-  height: 45px;
-  margin: 0;
+  font-size: 23px;
+  height: 25px;
+  margin-bottom: 14px;
   min-width: 200px;
-  padding-top: 10px;
+  padding-top: 4px;
   font-family: 'Montserrat', sans-serif;
-  background-color: #f9f9f9;
+  padding-bottom: 3px;
 }
 
 .App-subheader {
   position: absolute;
-  top: 67px;
+  top: 63px;
   left: 0;
   right: 0;
   font-family: 'Homemade Apple', cursive;
+  font-size: 10px;
+  margin: 0 35px;
 }

@@ -1,7 +1,8 @@
 .Navbar {
   font-size: 12px;
   margin: 0 0 15px 0;
-  padding-top: 3px;
+  padding-top: 5px;
+  border-top: dotted 1px;
 }
 
 .Navbar a {
@@ -21,14 +22,13 @@
 
 .Navbar a:hover {
   font-weight: bold;
-  font-size: 105%
 }
 
 /* a quick fix to keep from driving myself insane */ 
 #about {
   width: 30px;
 }
-#media {
+#misc {
   width: 30px;
 }
 #projects {
