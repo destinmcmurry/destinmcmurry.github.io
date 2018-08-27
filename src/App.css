@@ -2,6 +2,7 @@
   text-align: center;
   margin: 35px 35px 0 35px;
   font-size: 80%;
+  min-width: 250px;
 }
 
 .App-header {
@@ -16,10 +17,11 @@
 
 .App-subheader {
   position: absolute;
-  top: 63px;
+  top: 60px;
   left: 0;
   right: 0;
   font-family: 'Homemade Apple', cursive;
-  font-size: 10px;
+  font-size: 14px;
   margin: 0 35px;
+  min-width: 250px;
 }

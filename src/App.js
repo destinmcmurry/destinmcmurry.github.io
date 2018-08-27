@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className='App'>
         <Link to='/'><h1 className='App-header'>Destin McMurry</h1></Link>
-        <span className='App-subheader'>Front-End Leaning Full-Stack JavaScript Developer</span>
+        <span className='App-subheader'>Full-Stack JavaScript Developer</span>
         <Navbar/>
         <Routes/>
         <Footer />
