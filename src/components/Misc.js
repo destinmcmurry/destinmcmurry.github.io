@@ -3,7 +3,7 @@ import React from 'react';
 const divStyle = {
   display: 'flex',
   flexDirection: 'column',
-  width: '200px',
+  width: '270px',
   margin: '0 auto',
 }
 
