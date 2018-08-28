@@ -30,19 +30,20 @@ const Blurb = props => {
       <p>I spent most of my time in art and architecture studios, where I first began thinking about flow and function, realized I would need to teach myself the tools and technologies I needed to stand out, and learned to see the big picture while also knowing that the devil is in the details.</p>
       <h4 style={headerStyle}>As a developer</h4>
       <p>I bring these lessons with me as well as something that most creatives share: the relentless need to be proud of everything I make.</p>
-      <h4 style={headerStyle}>I'm passionate about</h4>
+      <h4 style={headerStyle}>Values:</h4>
       <div style={{marginTop: '10px'}}>
-        <span style={valuesStyle}>open communication,</span>
-        <span style={valuesStyle}>sharing,</span>
-        <span style={valuesStyle}>organization and best practices,</span>
-        <span style={valuesStyle}>celebrating wins,</span>
-        <span style={valuesStyle}>having a constructive mindset,</span>
-        <span style={valuesStyle}>awareness and consideration of others,</span>
-        <span style={valuesStyle}>efficiency,</span>
-        <span style={valuesStyle}>thoughtful feedback,</span>
-        <span style={valuesStyle}>staying iterative,</span>
-        <span style={valuesStyle}>positivity,</span>
-        <span style={valuesStyle}>and the little things.</span>
+        <span style={valuesStyle}>open communication</span>
+        <span style={valuesStyle}>sharing</span>
+        <span style={valuesStyle}>organization and best practices</span>
+        <span style={valuesStyle}>celebrating wins</span>
+        <span style={valuesStyle}>having a constructive mindset</span>
+        <span style={valuesStyle}>awareness and consideration of others</span>
+        <span style={valuesStyle}>efficiency</span>
+        <span style={valuesStyle}>thoughtful feedback</span>
+        <span style={valuesStyle}>staying iterative</span>
+        <span style={valuesStyle}>not taking yourself too seriously</span>
+        <span style={valuesStyle}>positivity</span>
+        <span style={valuesStyle}>the little things</span>
       </div>
     </div>
   );
