@@ -1,7 +1,7 @@
 import React from 'react';
 
 const footerStyle = {
-  margin: '50px 0 25px 0',
+  margin: '50px 0 35px 0',
   bottom: '0',
   left: '0',
   right: '0',
@@ -12,20 +12,25 @@ const footerStyle = {
 }
 
 const logoStyle = {
-  height: '15px',
-  width: '15px',
+  height: '20px',
+  width: '20px',
   padding: '0 5px'
 }
 
 const emailStyle = {
   display:'block', 
-  margin:'7px', 
+  margin:'3px 0 7px 0', 
   fontSize:'11px'
+}
+
+const cityStyle = {
+  margin: '5px 0 0 0'
 }
 
 const Footer = props => {
   return (
     <div style={footerStyle}>
+      <p style={cityStyle}>Brooklyn, NY</p>
       <a href='mailto:destinmcmurry@gmail.com'><p style={emailStyle}>destinmcmurry@gmail.com</p></a>
       <a href='https://codepen.io/destinmcmurry/' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/51/51767.svg' alt='codepen'/></a>
       <a href='https://www.linkedin.com/in/destin-mcmurry/' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/145/145807.svg' alt='linkedin'/></a>

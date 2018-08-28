@@ -12,7 +12,7 @@ const appStyle = {
 
 const headerStyle = {
   fontSize: '29px',
-  height: '25px',
+  height: '30px',
   marginBottom: '23px',
   minWidth: '200px',
   fontFamily: 'Montserrat, sans-serif',
@@ -21,7 +21,7 @@ const headerStyle = {
 
 const subheaderStyle = {
   position: 'absolute',
-  top: '50px',
+  top: '55px',
   left: '0',
   right: '0',
   fontFamily: 'Homemade Apple, cursive',

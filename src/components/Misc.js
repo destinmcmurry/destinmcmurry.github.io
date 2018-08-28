@@ -8,8 +8,8 @@ const divStyle = {
 }
 
 const logoStyle = {
-  height: '15px',
-  width: '15px',
+  height: '20px',
+  width: '20px',
   margin: ' 25px 20px 5px 20px',
   padding: '10px',
   borderBottom: 'dotted 1px'
@@ -19,9 +19,12 @@ const Misc = props => {
   return (
     <div>
       <div style={divStyle}>
-        <a href='https://drive.google.com/open?id=1gCwZffM66EE0M_Qjt9Rrx2-6rErxyAZc' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/179/179324.svg' alt='google drive logo'/></a>
-        <small>view or download my resume</small>
+      <a href='https://drive.google.com/open?id=1gCwZffM66EE0M_Qjt9Rrx2-6rErxyAZc' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/179/179324.svg' alt='google drive logo'/></a>
+      <small>view or download my resume</small>
+      <br/>
+      <br/>
       </div>
+      <h4>[artwork section currently under construction]</h4>
       <div style={divStyle}>
         <a href='https://medium.com/@destinmcmurry/how-to-optimize-your-time-at-coding-bootcamp-tackling-the-drinking-from-a-firehose-problem-in-o-n-a74d4bc5ce6' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/81/81661.svg' alt='medium logo'/></a>
         <small>read about my journey to and time at coding bootcamp</small>
@@ -36,7 +39,6 @@ const Misc = props => {
       </div>
       <br/>
       <br/>
-      <h4>[artwork section currently under construction]</h4>
     </div>
   );
 }
