@@ -24,7 +24,7 @@ const valuesStyle = {
 const Blurb = props => {
   return (
     <div className='Blurb'>
-      <img style={imageStyle} src='images/me.jpg' alt='headshot'/>
+      <img style={imageStyle} src='/public/images/me.jpg' alt='headshot'/>
       <br />
       <h4 style={headerStyle}>Before coding</h4>
       <p>I spent most of my time in art and architecture studios, where I first began thinking about flow and function, realized I would need to teach myself the tools and technologies I needed to stand out, and learned to see the big picture while also knowing that the devil is in the details.</p>

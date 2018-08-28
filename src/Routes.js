@@ -9,7 +9,7 @@ const Routes = props => {
       <Route path='/timeline' component={Timeline} />
       <Route path='/projects' component={Projects} />
       <Route path='/misc' component={Misc} />
-      <Route exact path='/' component={Blurb} />
+      <Route path='/' component={Blurb} />
     </Switch>
   )
 }
