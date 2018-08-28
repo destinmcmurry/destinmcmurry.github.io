@@ -1,5 +1,5 @@
-# My Personal Website ! 
+# My Personal Website 
 
-Coming soon
+Hosted on Github Pages
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
