@@ -34,7 +34,7 @@ class App extends Component {
   render() {
     return (
       <div style={appStyle}>
-        <Link to='/'><h1 style={headerStyle}>Destin McMurry</h1></Link>
+        <h1 style={headerStyle}>Destin McMurry</h1>
         <span style={subheaderStyle}>Full-Stack JavaScript Developer</span>
         <Navbar/>
         <Routes/>
