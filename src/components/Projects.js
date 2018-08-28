@@ -23,10 +23,6 @@ const logoStyle = {
   verticalAlign: 'text-top'
 }
 
-const descriptionStyle = {
-
-}
-
 const linkStyle = {
   fontSize: '10px',
   fontWeight: 'bold'
@@ -57,7 +53,7 @@ const Projects = props => {
 
       <a href='https://github.com/destinmcmurry/happy-router-web' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/25/25231.svg' alt='github'/></a>
       <h4 style={headerStyle}>Happy Router</h4>
-      <a href='https://github.com/destinmcmurry/happy-router-web' target='blank'><img style={screenshotStyle}  src='images/happyrouter-screenshot.png' alt='happyrouter'/></a>
+      <img style={screenshotStyle}  src='images/happyrouter-screenshot.png' alt='happyrouter'/>
       <h4>a mobile responsive web app that generates optimal routes of nearby happy hours</h4>
       <small>HappyRouter generates a randomized route of restaurant and bar specials based on a user's input. It does all of the research and planning for you by searching for active happy hours that are nearby and fall within your window, and ordering the route with a maximum of 3 places by the soonest ending happy hour.</small>
       <p>stack: JavaScript, HTML, CSS, Node.js, React.js, Redux, React-Redux, Mapbox GL JS</p>
@@ -67,7 +63,7 @@ const Projects = props => {
 
       <a href='https://github.com/destinmcmurry/wagstaff/' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/25/25231.svg' alt='github'/></a>
       <h4 style={headerStyle}>Wagstaff</h4>
-      <a href='https://github.com/destinmcmurry/wagstaff/' target='blank'><img style={screenshotStyle}  src='images/wagstaff-screenshot.png' alt='happyrouter'/></a>
+      <img style={screenshotStyle}  src='images/wagstaff-screenshot.png' alt='happyrouter'/>
       <h4>a single page application for managing a database of students and homerooms</h4>
       <small>The Wagstaff Elementary School Management site organizes students into their corresponding homerooms and allows the user to add new homerooms and students easily by filling out a quick form and to delete homerooms and students with the click of a button. If a teacher's homeroom is deleted, all students previously assigned will be updated to display "no homeroom."</small>
       <p>stack: JavaScript, HTML, CSS, Node.js, Express, React.js, Redux, React-Redux, PostgreSQL, Sequelize</p>

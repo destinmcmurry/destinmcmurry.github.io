@@ -1,5 +1,9 @@
 import React from 'react';
 
+const tlStyle = {
+  marginTop: '35px'
+}
+
 const segmentStyle = {
   display: 'block',
   margin: '5px',
@@ -17,7 +21,7 @@ const yearStyle = {
 
 const Timeline = props => {
   return (
-    <div className='Timeline'>
+    <div style={tlStyle}>
       <span style={yearStyle}>2010</span>
       <span style={segmentStyle}>accepted to the Mississippi School for Math and Science</span>
       <span style={segmentStyle}>:</span>
