@@ -10,6 +10,7 @@ const Routes = props => {
       <Route path='/projects' component={Projects} />
       <Route path='/misc' component={Misc} />
       <Route path='/personal-website' component={Blurb} />
+      <Route path='/' component={Blurb} />
     </Switch>
   )
 }
