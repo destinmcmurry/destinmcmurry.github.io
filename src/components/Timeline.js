@@ -51,7 +51,7 @@ const Timeline = props => {
       <span style={yearStyle}>2012</span>
       <span style={segmentStyle}>first exploration of architecture with an internship at Mississippi State University where I first tried my hand at PhotoShop and gathered research for a Rural Downtown Development thesis</span>
       <span style={segmentStyle}>:</span>
-      <img style={bannerStyle} src='https://github.com/destinmcmurry/personal-website/blob/master/public/images/msmsBanner.jpg?raw=true' alt='senior picture'/>
+      <img style={bannerStyle} src='https://github.com/destinmcmurry/personal-website/blob/master/public/images/msmsBanner.jpg?raw=true' alt='senior year'/>
       <span style={segmentStyle}>graduated from MSMS and started a countdown to my first flight</span>
       <span style={segmentStyle}>:</span>
       <span style={segmentStyle}>began freshman year at Vassar College as a National Questbridge Scholar</span>

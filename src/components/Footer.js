@@ -31,7 +31,7 @@ const Footer = props => {
       <a href='https://www.linkedin.com/in/destin-mcmurry/' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/145/145807.svg' alt='linkedin'/></a>
       <a href='https://github.com/destinmcmurry' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/25/25231.svg' alt='github'/></a>
       <a href='https://www.instagram.com/destinisabeach/' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/174/174855.svg' alt='instagram'/></a>
-      <a href='https://medium.com/@destinmcmurry' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/81/81661.svg'/></a>
+      <a href='https://medium.com/@destinmcmurry' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/81/81661.svg' alt='medium'/></a>
     </div>
   );
 }

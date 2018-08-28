@@ -19,15 +19,15 @@ const Misc = props => {
   return (
     <div>
       <div style={divStyle}>
-        <a href='https://drive.google.com/open?id=1gCwZffM66EE0M_Qjt9Rrx2-6rErxyAZc' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/179/179324.svg' alt='google drive'/></a>
+        <a href='https://drive.google.com/open?id=1gCwZffM66EE0M_Qjt9Rrx2-6rErxyAZc' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/179/179324.svg' alt='google drive logo'/></a>
         <small>view or download my resume</small>
       </div>
       <div style={divStyle}>
-        <a href='https://medium.com/@destinmcmurry/how-to-optimize-your-time-at-coding-bootcamp-tackling-the-drinking-from-a-firehose-problem-in-o-n-a74d4bc5ce6' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/81/81661.svg' alt='medium article'/></a>
+        <a href='https://medium.com/@destinmcmurry/how-to-optimize-your-time-at-coding-bootcamp-tackling-the-drinking-from-a-firehose-problem-in-o-n-a74d4bc5ce6' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/81/81661.svg' alt='medium logo'/></a>
         <small>read about my journey to and time at coding bootcamp</small>
       </div>
       <div style={divStyle}>
-        <a href='http://ford.vassar.edu/projects/2014/tallon.html' target='blank'><img style={logoStyle} src='https://media.licdn.com/dms/image/C560BAQGDVglVeSY39Q/company-logo_400_400/0?e=1543449600&v=beta&t=iDOv-V8I9HEgRWdAaq5aWO_9cdQXGbehYOffkSSxiWQ'/></a>
+        <a href='http://ford.vassar.edu/projects/2014/tallon.html' target='blank'><img style={logoStyle} src='https://media.licdn.com/dms/image/C560BAQGDVglVeSY39Q/company-logo_400_400/0?e=1543449600&v=beta&t=iDOv-V8I9HEgRWdAaq5aWO_9cdQXGbehYOffkSSxiWQ' alt='vassar logo'/></a>
         <small>check out my Vassar Ford Scholar project</small>
       </div>
       <div style={divStyle}>
