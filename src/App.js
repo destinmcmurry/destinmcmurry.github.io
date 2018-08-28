@@ -11,7 +11,7 @@ const appStyle = {
 }
 
 const headerStyle = {
-  fontSize: '25px',
+  fontSize: '29px',
   height: '25px',
   marginBottom: '23px',
   minWidth: '200px',
