@@ -26,11 +26,11 @@ const emailStyle = {
 const Footer = props => {
   return (
     <div style={footerStyle}>
-      <p style={emailStyle}>destinmcmurry@gmail.com</p>
-      <a href='https://codepen.io/destinmcmurry/' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/51/51767.svg'/></a>
-      <a href='https://www.linkedin.com/in/destin-mcmurry/' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/145/145807.svg'/></a>
-      <a href='https://github.com/destinmcmurry' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/25/25231.svg'/></a>
-      <a href='https://www.instagram.com/destinisabeach/' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/174/174855.svg'/></a>
+      <a href='mailto:destinmcmurry@gmail.com'><p style={emailStyle}>destinmcmurry@gmail.com</p></a>
+      <a href='https://codepen.io/destinmcmurry/' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/51/51767.svg' alt='codepen'/></a>
+      <a href='https://www.linkedin.com/in/destin-mcmurry/' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/145/145807.svg' alt='linkedin'/></a>
+      <a href='https://github.com/destinmcmurry' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/25/25231.svg' alt='github'/></a>
+      <a href='https://www.instagram.com/destinisabeach/' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/174/174855.svg' alt='instagram'/></a>
       <a href='https://medium.com/@destinmcmurry' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/81/81661.svg'/></a>
     </div>
   );
