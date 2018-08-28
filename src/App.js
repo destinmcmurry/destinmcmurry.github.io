@@ -5,7 +5,7 @@ import Routes from './Routes';
 
 const appStyle = {
   textAlign: 'center',
-  margin: '35px 35px 0 35px',
+  margin: '25px 35px 0 35px',
   fontSize: '80%',
   minWidth: '250px'
 }
@@ -21,7 +21,7 @@ const headerStyle = {
 
 const subheaderStyle = {
   position: 'absolute',
-  top: '60px',
+  top: '50px',
   left: '0',
   right: '0',
   fontFamily: 'Homemade Apple, cursive',

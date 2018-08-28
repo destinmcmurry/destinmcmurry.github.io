@@ -65,7 +65,7 @@ const Timeline = props => {
       <span style={segmentStyle}>accepted to the Grace Hopper Program at Fullstack Academy</span>
       <span style={segmentStyle}>:</span>
       <span style={yearStyle}>2018</span>
-      <span style={segmentStyle}>graduated as a Full-Stack JavaScript Developer</span>
+      <span style={segmentStyle}>graduated from Grace Hopper as a Full-Stack JavaScript Developer</span>
     </div>
   );
 }

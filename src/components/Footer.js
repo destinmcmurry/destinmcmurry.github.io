@@ -1,7 +1,7 @@
 import React from 'react';
 
 const footerStyle = {
-  margin: '35px 0',
+  margin: '50px 0 25px 0',
   bottom: '0',
   left: '0',
   right: '0',

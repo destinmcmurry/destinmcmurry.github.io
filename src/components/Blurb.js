@@ -1,5 +1,15 @@
 import React from 'react';
 
+// const bannerStyle = {
+//   position: 'absolute',
+//   top: '0',
+//   left: '0',
+//   right: '0',
+//   height: '120px',
+//   zIndex: '-1',
+//   opacity: '.9'
+// }
+
 const imageStyle = {
   height: '250px',
   width: '250px',
@@ -24,6 +34,7 @@ const valuesStyle = {
 const Blurb = props => {
   return (
     <div className='Blurb'>
+      {/*<img style={bannerStyle} src='/images/bridgeBanner.jpg' alt='bridge'/>*/}
       <img style={imageStyle} src='https://avatars3.githubusercontent.com/u/29695784?s=460&v=4' alt='headshot'/>
       <br />
       <h4 style={headerStyle}>Before coding</h4>
