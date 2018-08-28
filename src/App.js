@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Navbar, Footer } from './components';
-import { Link } from 'react-router-dom';
 import Routes from './Routes';
 
 const appStyle = {

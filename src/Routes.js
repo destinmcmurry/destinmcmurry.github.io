@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import { Blurb, Timeline, Projects, Misc } from './components';
+import { Blurb, Timeline, Projects } from './components';
 
 const Routes = props => {
   return (
@@ -8,7 +8,6 @@ const Routes = props => {
       <Route path='/about' component={Blurb} />
       <Route path='/timeline' component={Timeline} />
       <Route path='/projects' component={Projects} />
-      <Route path='/misc' component={Misc} />
       <Route path='/personal-website' component={Projects} />
     </Switch>
   )

@@ -11,10 +11,15 @@ const footerStyle = {
   padding: '5px 0 10px 0'
 }
 
+const driveLogoStyle = {
+  height: '20px',
+  width: '20px'
+}
+
 const logoStyle = {
   height: '20px',
   width: '20px',
-  padding: '0 5px'
+  padding: '0 5px 15px 5px'
 }
 
 const emailStyle = {
@@ -24,12 +29,14 @@ const emailStyle = {
 }
 
 const cityStyle = {
-  margin: '5px 0 0 0'
+  margin: '0'
 }
 
 const Footer = props => {
   return (
     <div style={footerStyle}>
+      <br/>
+      <a href='https://drive.google.com/open?id=1gCwZffM66EE0M_Qjt9Rrx2-6rErxyAZc' target='blank'><img style={driveLogoStyle} src='https://image.flaticon.com/icons/svg/179/179324.svg' alt='google drive logo'/></a>
       <p style={cityStyle}>Brooklyn, NY</p>
       <a href='mailto:destinmcmurry@gmail.com'><p style={emailStyle}>destinmcmurry@gmail.com</p></a>
       <a href='https://codepen.io/destinmcmurry/' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/51/51767.svg' alt='codepen'/></a>
