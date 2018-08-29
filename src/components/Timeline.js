@@ -24,7 +24,7 @@ const bannerStyle = {
   margin: 'auto',
   width: '100%',
   maxWidth: '500px',
-  padding: '5px',
+  padding: '3px',
   backgroundColor: '#fff'
 }
 
@@ -52,7 +52,7 @@ const Timeline = props => {
       <span style={segmentStyle}>first exploration of architecture with an internship at Mississippi State University where I first tried my hand at PhotoShop and gathered research for a rural downtown development thesis</span>
       <span style={segmentStyle}>:</span>
       <img style={bannerStyle} src='https://github.com/destinmcmurry/personal-website/blob/master/public/images/msmsBanner.jpg?raw=true' alt='senior year'/>
-      <span style={segmentStyle}>graduated from MSMS and started a countdown to my first flight</span>
+      <span style={segmentStyle}>graduated from MSMS and started a countdown to my first ever flight</span>
       <span style={segmentStyle}>:</span>
       <span style={segmentStyle}>began freshman year at Vassar College as a National Questbridge Scholar</span>
       <span style={segmentStyle}>:</span>

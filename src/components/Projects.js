@@ -12,8 +12,12 @@ const screenshotStyle = {
   margin: 'auto',
   width: '70%',
   maxWidth: '600px',
-  padding: '7px',
+  padding: '5px',
   backgroundColor: '#fff'
+}
+
+const imageStyle = {
+  width: '100%'
 }
 
 const logoStyle = {
@@ -40,7 +44,7 @@ const Projects = props => {
 
       <a href='https://github.com/acdc-1802/pintrips' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/25/25231.svg' alt='github'/></a>
       <h4 style={headerStyle}>Pintrips</h4>
-      <a href='https://mypintrips.com/' target='blank'><img style={screenshotStyle}  src='https://github.com/destinmcmurry/personal-website/blob/master/public/images/pintrips-screenshot.png?raw=true' alt='pintrips'/></a>
+        <a style={screenshotStyle} href='https://mypintrips.com/' target='blank'><img style={imageStyle}  src='https://github.com/destinmcmurry/personal-website/blob/master/public/images/pintrips-screenshot.png?raw=true' alt='pintrips'/></a>
       <p style={dottedLineStyle}></p>
       <h4>a progressive web application for collaboratively planning and journaling trips</h4>
       <small>Pintrips allows users to plan for and journal trips by dropping custom pins to mark places they would like to go and places that they've been on individual 'place boards'. These boards, rendered with a React binding of Mapbox GL JS, are shareable and can have multiple collaborators and styles. The real-time collaboration is possible because of the use of Google's Cloud Firestore, which allows board components to listen for any changes and automatically update when they happen. At any point in the trip, users can send their pinned and styled boards as an online postcard that uses app geolocation and GreenSock animation to stamp and send to family and friends.</small>
@@ -51,7 +55,7 @@ const Projects = props => {
 
       <a href='https://github.com/deb-gh-1802/grace-shopper' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/25/25231.svg' alt='github'/></a>
       <h4 style={headerStyle}>Build - A - Self</h4>
-      <a href='https://rocky-eyrie-74701.herokuapp.com/' target='blank'><img style={screenshotStyle}  src='https://github.com/destinmcmurry/personal-website/blob/master/public/images/buildaself-screenshot.png?raw=true' alt='build-a-self'/></a>
+        <a style={screenshotStyle} href='https://rocky-eyrie-74701.herokuapp.com/' target='blank'><img style={imageStyle}  src='https://github.com/destinmcmurry/personal-website/blob/master/public/images/buildaself-screenshot.png?raw=true' alt='build-a-self'/></a>
       <p style={dottedLineStyle}></p>
       <h4>an e-commerce website that sells desirable qualities</h4>
       <small>Build-A-Self is an e-commerce site that sells confidence, ambition, and other positive qualities. The functionality includes creating an account with an email or Google OAuth, adding items to your cart, purchasing an order (well, sort of), and viewing your past order history. For administrators, there is also a content management system for adding and updating items, altering admin statuses, and viewing all users' order histories.</small>
