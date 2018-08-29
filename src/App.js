@@ -29,18 +29,16 @@ const subheaderStyle = {
   minWidth: '250px'
 }
 
-class App extends Component {
-  render() {
-    return (
-      <div style={appStyle}>
-        <h1 style={headerStyle}>Destin McMurry</h1>
-        <span style={subheaderStyle}>Full-Stack JavaScript Developer</span>
-        <Navbar/>
-        <Routes/>
-        <Footer />
-      </div>
-    );
-  }
+const App = props => {
+  return (
+    <div style={appStyle}>
+      <h1 style={headerStyle}>Destin McMurry</h1>
+      <span style={subheaderStyle}>Full-Stack JavaScript Developer</span>
+      <Navbar/>
+      <Routes/>
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
