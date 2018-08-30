@@ -69,6 +69,8 @@ const Blurb = props => {
       
       <a style={linkStyle} href='https://www.youtube.com/watch?v=ryAuEQ3MwcQ&t=1s' target='blank'>"My Basic 3 Settlers of Catan Strategies"</a>
 
+      <a style={linkStyle} href='https://drive.google.com/open?id=1wJUSuDPWiZsq_Q_zaAbx2-1qNAPLrTSGAo0ISC12e9A' target='blank'>Design Portfolio</a>
+
     </div>
   );
 }
