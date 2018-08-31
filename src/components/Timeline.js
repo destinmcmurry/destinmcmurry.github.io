@@ -60,7 +60,7 @@ const Timeline = props => {
       <span style={segmentStyle}>:</span>
       <span style={yearStyle}>2013</span>
       <img style={lighterBannerStyle} src='https://github.com/destinmcmurry/personal-website/blob/master/public/images/vcBanner.jpg?raw=true' alt='vassar library'/>
-      <span style={segmentStyle}>began working as an Art Lab Assistant for Vassar's Professor of Gothic Architecture and practicing my color correcting and 360º panorama stitching</span>
+      <span style={segmentStyle}>began working as an Art Lab Assistant for Vassar's Professor of Gothic Architecture color correcting and 360º panorama stitching</span>
       <span style={segmentStyle}>:</span>
       <span style={segmentStyle}>first architectural design studio and introduction to tools like AutoCAD, Illustrator, and SketchUp</span>
       <span style={segmentStyle}>:</span>
