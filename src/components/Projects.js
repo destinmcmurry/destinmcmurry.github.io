@@ -42,6 +42,15 @@ const Projects = props => {
   return (
     <div className='Projects'>
 
+    <a href='https://github.com/destinmcmurry/weather-app' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/25/25231.svg' alt='github'/></a>
+    <h4 style={headerStyle}>Whether</h4>
+      <a style={screenshotStyle} href='https://cryptic-gorge-87239.herokuapp.com/' target='blank'><img style={imageStyle}  src='https://github.com/destinmcmurry/personal-website/blob/master/public/images/whether-screenshot.png?raw=true' alt='whether'/></a>
+    <p style={dottedLineStyle}></p>
+    <h4>a mobile repsonsive web app for telling you whether the weather is good or not</h4>
+    <small>Whether interfaces with the OpenWeather API to display weather from up to 5 cities of your choice, and upon selecting a city, a 5-day forecast along with more details about today's weather.</small>
+    <p>stack: JavaScript, HTML, CSS, Node.js, React.js, GooglePlaces API, OpenWeather API</p>
+
+
       <a href='https://github.com/acdc-1802/pintrips' target='blank'><img style={logoStyle} src='https://image.flaticon.com/icons/svg/25/25231.svg' alt='github'/></a>
       <h4 style={headerStyle}>Pintrips</h4>
         <a style={screenshotStyle} href='https://mypintrips.com/' target='blank'><img style={imageStyle}  src='https://github.com/destinmcmurry/personal-website/blob/master/public/images/pintrips-screenshot.png?raw=true' alt='pintrips'/></a>
