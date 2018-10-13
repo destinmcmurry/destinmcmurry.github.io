@@ -1,0 +1,250 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue';
+  color: #3d3d3d;
+  background-color: #f7f6f4;
+}
+
+a {
+  text-decoration: none;
+  color: #3d3d3d;
+}
+
+#root {
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+}
+
+.app {
+  text-align: center;
+  margin: 25px 35px 0 35px;
+  font-size: 80%;
+  min-width: 250px;
+}
+
+.header {
+  font-size: 29px;
+  height: 30px;
+  margin-bottom: 23px;
+  min-width: 200px;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 3px;
+}
+
+.subheader {
+  position: absolute;
+  top: 55px;
+  left: 0;
+  right: 0;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 14px;
+  margin: 0 35px;
+  min-width: 250px;
+}
+
+.navbar {
+  font-size: 12px;
+  margin: 0 auto 15px auto;
+  padding-top: 5px;
+  border-top: solid 1px #777;
+  max-width: 950px;
+}
+
+.navbar a {
+  display: inline-block;
+  height: 20px;
+  width: 40px;
+  vertical-align: middle;
+  padding: 0 10px;
+}
+
+.navbar .seperator {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 10px;
+  padding-top: 1px;
+}
+
+.navbar a:hover {
+  font-weight: bold;
+}
+
+#about-btn {
+  width: 30px;
+}
+#projects-btn {
+  width: 42px;
+}
+
+/* projects css */
+
+.projectHeader {
+  display: inline-block;
+  font-family: 'Homemade Apple', cursive;
+  border-bottom: solid 1px #777;
+  font-size: 14px;
+  margin: 25px 0 10px 0;
+}
+
+.screenshot {
+  display: block;
+  margin: auto;
+  width: 70%;
+  max-width: 500px;
+  padding: 3px;
+  background-color: #fff;
+  box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.75)
+}
+
+#unevenPaddingScreenshot {
+  padding: 3px 3px 0 3px;
+}
+
+.innerScreenshot {
+  width: 100%;
+}
+
+.githubLogo {
+  height: 15px;
+  width: 15px;
+  padding: 0 5px;
+  vertical-align: text-top;
+}
+
+.solidLine {
+  margin: 10px auto;
+  width: 50%;
+  border-top: solid 1px #777;
+}
+
+.projectsDescriptionContainer {
+  max-width: 775px;
+  margin: 10px auto;
+}
+
+.projectLink {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+/* about css */
+
+.headshot {
+  width: 80%;
+  max-width: 350px;
+  padding: 3px;
+  background-color: white;
+  margin: 25px auto 10px auto;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.aboutHeader {
+  display: inline-block;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 13px;
+  margin: 5px auto 0 auto;
+  border-bottom: solid 1px #777;
+}
+
+.aboutDescriptionContainer {
+  max-width: 700px;
+  margin: 10px auto;
+}
+
+.valuesDiv {
+  margin: 15px 0;
+}
+
+.values {
+  display: block;
+  margin: 2px;
+}
+
+.aboutLink {
+  display: block;
+  margin: 8px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+/* timeline css */
+
+.tl {
+  margin-top: 35px;
+}
+
+.segment {
+  display: block;
+  margin: 7px auto;
+  font-size: 11px;
+  max-width: 775px;
+}
+
+.year {
+  display: inline-block;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 18px;
+  height: 24px;
+  border-bottom: solid 1px #777;
+  margin: 0 auto;
+}
+
+.banner {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+  max-width: 550px;
+  padding: 3px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.lighterBanner {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+  max-width: 500px;
+  opacity: .85;
+  padding: 3px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+/* footer css */
+
+.footer {
+  margin: 50px auto 35px auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  padding-top: 25px;
+  border-top: 1px solid #777;
+  max-width: 950px;
+  padding: 5px 0 10px 0;
+}
+
+.driveLogo {
+  height: 20px;
+  width: 20px;
+}
+
+.logo {
+  height: 20px;
+  width: 20px;
+  padding: 0 5px 15px 5px;
+}
+
+.email {
+  display:block;
+  margin:3px 0 7px 0;
+  font-size: 11px;
+}
+
+.city {
+  margin: 0;
+}

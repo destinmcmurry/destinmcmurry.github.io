@@ -1,7 +1,7 @@
-### Personal Website - React Version
+### Personal Website - Vanilla Version
 
-all about me, my road to code, and my projects
+Why did I make two versions of the same site? I don't know ~ to see how they compare I guess! 
 
-check out the vanilla version for a re-code I did to compare the two, it's so simple, only ~ 3 ~ files!
+Used some fake client-side routing (jQuery'd the navbar) to give that ~ SPA ~ effect, but of course the hashed URLS aren't real URLS 
 
-also, I'm coming back to change the image loading, promise
+Pages and images load faster in this one because, so simple ~ 
